@@ -14,7 +14,8 @@ header {
 header,
 footer {
     background: var(--color1);
-    background: url(../img/pattern.png), linear-gradient(90deg, var(--color1) 0%, var(--color2) 100%);
+    background: url(../img/pattern.png),
+        linear-gradient(90deg, var(--color1) 0%, var(--color2) 100%);
     background-size: contain;
 }
 
@@ -83,8 +84,6 @@ footer {
     height: 100%;
 }
 
-
-
 /* Цвет */
 
 .color1 {
@@ -133,8 +132,6 @@ footer {
     margin: 15px auto 30px;
 }
 
-
-
 .forwhom h5 {
     padding: 50px;
     border: 3px solid var(--color1);
@@ -154,7 +151,6 @@ footer {
     border: 3px solid var(--color1);
 }
 
-
 .autor {
     padding-bottom: 0;
 }
@@ -163,19 +159,20 @@ footer {
     max-width: 260px;
 }
 
-.rounded{
+.rounded {
     border-radius: 50% !important;
     border: 3px solid var(--color1);
 }
 
-.row{
+.row {
     --bs-gutter-x: 0;
 }
 
-footer{
+footer {
     padding: 30px 0;
 }
 
-.rowPadding{
+.rowPadding {
     padding: 6px;
 }
+
