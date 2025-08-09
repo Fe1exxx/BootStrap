@@ -175,3 +175,7 @@ footer {
 footer{
     padding: 30px 0;
 }
+
+.rowPadding{
+    padding: 6px;
+}
